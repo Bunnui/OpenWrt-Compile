@@ -23,6 +23,3 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.gi
 
 # DNS 广告过滤
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
-
-# 文件管理助手
-git clone https://github.com/shidahuilang/luci-app-fileassistant package/lean/luci-app-fileassistant
