@@ -27,19 +27,19 @@ env:
   REPO_BRANCH: master
 
   # 自定义 "files" 文件(files大法, 仓库最好设为私有，否则你的配置信息，如宽带账号等会公开在网上)
-  CUSTOM_FILES: config/x86-64/default-ipv6/files
+  CUSTOM_FILES: config/public/default/files
 
   # 自定义 "feeds.conf.default" 文件名
-  FEEDS_CONF: config/x86-64/default-ipv6/feeds.conf.default
+  FEEDS_CONF: config/public/default/feeds.conf.default
 
   # 自定义 ".config" 文件名
   CONFIG_FILE: config/x86-64/default-ipv6/.config
 
   # 自定义diy-part1.sh文件名
-  DIY_P1_SH: config/x86-64/default-ipv6/diy-part1.sh
+  DIY_P1_SH: config/public/default/diy-part1.sh
 
   # 自定义diy-part2.sh文件名
-  DIY_P2_SH: config/x86-64/default-ipv6/diy-part2.sh
+  DIY_P2_SH: config/public/default/diy-part2.sh
 
   # 上传 bin 目录。即包含所有 ipk 文件和固件的目录。默认false
   UPLOAD_BIN_DIR: false

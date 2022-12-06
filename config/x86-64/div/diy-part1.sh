@@ -17,9 +17,3 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # 添加feeds源
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-
-# 解锁网易音乐插件
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/lean/luci-app-unblockneteasemusic
-
-# DNS 广告过滤
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome

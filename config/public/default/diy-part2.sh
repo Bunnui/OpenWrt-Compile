@@ -10,5 +10,5 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-# Modify default IP
+# 替换默认Web管理页面的IP地址(LAN)，192.168.1.1 为默认地址，后面则是你设定的地址。
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
