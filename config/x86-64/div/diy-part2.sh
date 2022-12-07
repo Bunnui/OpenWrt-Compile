@@ -25,8 +25,8 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/my/l
 git clone https://github.com/frainzy1477/luci-app-clash.git package/my/luci-app-clash
 
 # argon主题
-rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/my/luci-theme-argon
+rm -rf package/feeds/luci/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/my/luci-theme-argon
 
 # argon主题配置
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/my/luci-app-argon-config
