@@ -36,10 +36,10 @@ env:
   CONFIG_FILE: config/x86-64/div/.config
 
   # 自定义diy-part1.sh文件名
-  DIY_P1_SH: config/public/div/diy-part1.sh
+  DIY_P1_SH: config/x86-64/div/diy-part1.sh
 
   # 自定义diy-part2.sh文件名
-  DIY_P2_SH: config/public/div/diy-part2.sh
+  DIY_P2_SH: config/x86-64/div/diy-part2.sh
 
   # 上传 bin 目录。即包含所有 ipk 文件和固件的目录。默认false
   UPLOAD_BIN_DIR: false
